@@ -1,6 +1,6 @@
 -
   name: install apache
-  hosts: target1
+  hosts: 192.168.215.4
   tasks:
     - name: install apache
       package:
