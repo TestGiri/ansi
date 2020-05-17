@@ -1,7 +1,7 @@
 -
   name: install apache
   hosts: 192.168.215.4
-  become_user: root
+  become: yes
   tasks:
     - name: install apache
       package:
