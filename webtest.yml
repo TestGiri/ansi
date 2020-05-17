@@ -8,7 +8,7 @@
         state: present
 
     - name: start http service
-        service:
+      service:
           name: httpd
           state: started
           enabled: yes
